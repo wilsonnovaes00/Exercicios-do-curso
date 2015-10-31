@@ -22,46 +22,93 @@ $j = 21 / 4 / 2;
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<meta charset="UTF-8">
 	<title>Resultado das expressões</title>
 </head>
 <body>
 
-	
-<table dir="ltr" width="477" border="1" class="default">
-<caption>Key languages involved with Web Standards</caption>
-<colgroup width="50%">
-</colgroup><colgroup id="colgroup" class="colgroup" align="center" valign="middle" title="title" width="1*" span="2" style="">
-</colgroup><thead>
-<tr>
-<th scope="col">Language</th>
-<th scope="col">Acronym</th>
-<th scope="col">Purpose</th>
-</tr>
-</thead>
-<tfoot>
-<tr>
-<td>Cascading Style Sheets</td>
-<td>CSS</td>
-<td>Presentation</td>
-</tr>
-</tfoot>
-<tbody>
-<tr>
-<td>Hypertext Markup Language</td>
-<td>HTML</td>
-<td>Structure</td>
-</tr>
-<tr>
-<td>JavaScript</td>
-<td>JS</td>
-<td>Behavior</td>
-</tr>
-</tbody>
+<table>
+  <thead>
+    <tr>
+      <th colspan="9">Resultados das expressões</th>
+    </tr>
+    
+  </thead>
+  <tbody>
+    <tr>
+      <td>Posições</td>
+      <td>Expressões</td>
+      <td>Resultados</td>
+      
+    </tr>
+
+
+    <tr>
+      <td>A) </td>
+      <td>3+4*5</td>
+      <td><?=$a?></td>
+      
+    </tr>
+    <tr>
+      <td>B)</td>
+      <td>8/4+2*3</td>
+      <td><?=$b?></td>
+    </tr>
+    <tr>
+      <td>C)</td>
+      <td>2*(10-3*3)</td>
+      <td><?php echo $c; ?></td>
+    </tr>
+
+    <tr>
+      <td>D)</td>
+      <td>5*(3+(2+3))/2+1</td>
+      <td><?=$d?></td>
+    </tr>
+
+
+
+    <tr>
+      <td>E)</td>
+      <td>1+12/((7+2)/3)+(6-2)</td>
+      <td><?php echo $e; ?></td>
+    </tr>
+
+	<tr>
+      <td>F)</td>
+      <td>3+16/2+5</td>
+      <td><?php echo $f; ?></td>
+    </tr>
+
+    <tr>
+      <td>G)</td>
+      <td>24 / 4-2</td>
+      <td><?=$g?></td>
+    </tr>
+
+    <tr>
+      <td>H)</td>
+      <td>11 % 4+9 / 3;</td>
+      <td><?php echo $h; ?></td>
+    </tr>
+
+    <tr>
+      <td>I)</td>
+      <td>sqrt (9)+ sqrt(16)</td>
+      <td><?php echo $i; ?></td>
+    </tr>
+
+    <tr>
+      <td>J)</td>
+      <td>21 / 4 / 2</td>
+      <td><?=$j?></td>
+    </tr>
+
+
+
+  </tbody>
 </table>
-
-
 </body>
 </html>
 
