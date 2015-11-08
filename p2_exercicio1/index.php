@@ -2,4 +2,4 @@
 
 echo "teste";
 
-$arrayName = array('' => , );
+$arrayName = array('' => , );aa
