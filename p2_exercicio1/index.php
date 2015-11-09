@@ -14,3 +14,4 @@ echo "teste";
 </html>
 teste
 
+$arrayName = array('' => , );
