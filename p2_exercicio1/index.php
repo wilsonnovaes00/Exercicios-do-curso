@@ -8,4 +8,8 @@ udm_alloc_agent_array(
 	)
 
 sem_acquire(
-	)
+	udm_alloc_agent_array(
+		)
+	libxml_get_last_error(
+
+		)
