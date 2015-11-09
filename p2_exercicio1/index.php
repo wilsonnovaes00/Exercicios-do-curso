@@ -3,5 +3,12 @@
 echo "teste"; 
 
 		)
-html:5
+<!DOCTYPE html>
+<html>
+<head>
+	<title>teste</title>
+</head>
+<body>
 
+</body>
+</html>
