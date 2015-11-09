@@ -6,10 +6,11 @@ echo "teste";
 <!DOCTYPE html>
 <html>
 <head>
-	<title>teste</title>
+	<title>teaste</title>
 </head>
 <body>
 
 </body>
 </html>
+teste
 
