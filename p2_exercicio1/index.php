@@ -10,6 +10,3 @@ echo "teste";
 </head>
 <body>
 
-
-aa 
-XXXXa
