@@ -9,8 +9,4 @@ echo "teste";
 	<title>teaste</title>
 </head>
 <body>
-
-</body>
-</html>
-teste
-
+sssssssss
