@@ -9,4 +9,3 @@ echo "teste";
 	<title>Teste</title>
 </head>
 <body>
-teste
