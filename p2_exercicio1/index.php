@@ -1,5 +1,25 @@
-<?php
+<!-- Iniciando o codigo html -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="9">Verificando se é par ou Impar</th>
+    </tr>
+    
+  </thead>
+  <tbody>
+
+<?php
 
 #criando um array vazio 
 $numeros = array();
@@ -19,5 +39,9 @@ for ($i=0; $i < 5 ; $i++) {
 	
 
 }
+
+?>
+
+
 
 #fim
