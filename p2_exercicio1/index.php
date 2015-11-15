@@ -5,20 +5,12 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Verificar se é par ou impar</title>
 </head>
 <body>
 
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="9">Verificando se é par ou Impar</th>
-    </tr>
-    
-  </thead>
-  <tbody>
-
+<h1>Verfifica se é Par ou Impar</h1>
 <?php
 
 #criando um array vazio 
@@ -42,6 +34,8 @@ for ($i=0; $i < 5 ; $i++) {
 
 ?>
 
+</tbody>
+</table>
+</body>
+</html>
 
-
-#fim
